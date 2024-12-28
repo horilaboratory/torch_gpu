@@ -1,0 +1,12 @@
+services:
+    pytorch:
+        image: horithe3rd/torch_env:0.1
+        volumes:
+            - ./:/workspace/
+        container_name: torch
+        runtime: nvidia
+        environment:
+            - NVIDIA_VISIBLE_DEVICES=all
+        stdin_open: true
+        tty: true
+        command: bash
