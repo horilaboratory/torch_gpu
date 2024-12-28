@@ -3,7 +3,7 @@ Pytorch environment with GPU acceleration.
 
 ## Usage
 ```sh
-sudo docker compose up
+sudo docker compose up -d
 sudo docker attach torch
 ```
 
