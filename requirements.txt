@@ -1,0 +1,14 @@
+pandas
+plotly
+matplotlib
+torchinfo
+transformers
+accelerate
+jupyter
+opencv-python
+opencv-contrib-python
+Pillow
+scikit-learn
+scipy
+tqdm
+
